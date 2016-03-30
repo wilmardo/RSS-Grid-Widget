@@ -14,9 +14,10 @@ First you need to get the featured images in the RSS feed of the website you wan
 ### On the website where the RSS feed needs to be displayed
 The second step is to setup this plugin on the website where the RSS feed is getting displayed
 
-1. Install and activate this plugin.
-2. Go to Appearence > Widgets and add the RSS Grid Widget to the desired place.
-3. You will see four options: Widget Title, RSS Feed URL, Amount of items, Thumbnail size.
+1. Upload the rss-widget-grid folder to the /wp-content/plugins directory
+2. Go to Plugins and activate RSS Grid Widget
+3. Go to Appearence > Widgets and add the RSS Grid Widget to the desired place.
+4. You will see four options: Widget Title, RSS Feed URL, Amount of items, Thumbnail size.
 
 # Credits
 The Hover Caption is provided by @coryschires and can be found [in his repositry](https://github.com/coryschires/hover-caption). <br>
