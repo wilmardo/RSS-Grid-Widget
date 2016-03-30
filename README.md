@@ -2,9 +2,9 @@
 A Wordpress plugin to display a widget with featured images from a Wordpress RSS feed.
 
 # Installation 
-The installation has two parts, a configuration on the site with the RSS feed and a configuration on the site that is displaying the RSS feed.
+The installation has two parts, a configuration on the website that provides the RSS feed and a configuration on the site that is displaying the RSS feed.
 
-### On the website with the RSS feed
+### On the website providing the RSS feed
 First you need to get the featured images in the RSS feed of the website you want to display the RSS feed from.
 
 1. Install and activate the RSS Image Feed plugin: https://nl.wordpress.org/plugins/rss-image-feed/
