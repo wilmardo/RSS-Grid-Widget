@@ -1,0 +1,19 @@
+.rss_grid_widget_image {
+    display: inline-block;
+}
+.rss_grid_widget img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.hover_caption {
+    /* If you can count of CSS3 support: */
+    background-color: rgba(0, 0, 0, 0.7);
+
+    /* Or use a transparent image if you need to support bad browsers: */
+    /* background-image: url(/hover_caption_bg.png);*/
+}
+.hover_caption_caption {
+    word-wrap: break-word;
+    overflow: hidden;
+}
