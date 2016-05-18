@@ -18,6 +18,7 @@ The second step is to setup this plugin on the website where the RSS feed is get
 2. Go to Plugins and activate RSS Grid Widget
 3. Go to Appearence > Widgets and add the RSS Grid Widget to the desired place.
 4. You will see four options: Widget Title, RSS Feed URL, Amount of items, Thumbnail size.
+5. Give in the desired options, click save and enjoy the RSS Grid Widget!
 
 # Credits
 The Hover Caption is provided by @coryschires and can be found [in his repositry](https://github.com/coryschires/hover-caption). <br>
