@@ -118,8 +118,15 @@ class rss_grid_widget extends WP_Widget {
                         $imageurl = implode('/', $explode); // glue the remaining pieces back together
                     }
                 }
-                $thumb = explode( ".", $image);
-                echo '<img src="'.$imageurl.'/'.$thumb[0].'-'.$thumbsize.'.'.$thumb[1].'" alt="'.$item->title.'" title="'.$item->title.'"/></div></a>';
+                $filename = explode( ".", $image); // split image on dot for filename and filetype
+                $imagename = explode( "-", $filename[0]); // split filename on - to check for thumbparameters
+                $thumbparams = array_pop($imagename); // get last element of array
+                if (preg_match('/[x]+[0-9]/', $thumbparams)) {
+                  // thumbparams exist but array_pop already removed -150x150
+                } else {
+                  array_push($imagename, $thumbparams); //no thumbparams so back at the end of the array
+                }
+                echo '<img src="'.$imageurl.'/'.implode('-', $imagename).'-'.$thumbsize.'.'.$filename[1].'" alt="'.$item->title.'" title="'.$item->title.'"/></div></a>';
                 $count++;
             } else {
                 break;
