@@ -1,5 +1,6 @@
 # RSS-Grid-Widget
 A Wordpress plugin to display a widget with featured images from a Wordpress RSS feed.
+See https://cv.wilmardenouden.nl for an example.
 
 # Installation 
 The installation has two parts, a configuration on the website that provides the RSS feed and a configuration on the site that is displaying the RSS feed.
